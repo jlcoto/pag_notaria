@@ -1,0 +1,1 @@
+$(window).scroll(function(){var o=$(window).scrollTop();$(".central-pic").css("background-position","left "+o+"px")});
