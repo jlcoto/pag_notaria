@@ -22,8 +22,9 @@ function initMap() {
         });
 
 
-    var infoContent = '<div class="col-xs-6"><div>Dirección: Avenida Las Violetas' +
-    'Nº 782, Independencia, Lima, Perú. </br> Teléfono: +511 485 2526</div></div>'
+    var infoContent = '<div class="col-xs-6"><div> <span class="info-contacto"> Dirección: </span> Avenida Las Violetas' +
+    ' Nº 782, Independencia, </br> Lima, Perú. </br> <span class="info-contacto"> Teléfono: </span> +511 485 2526</div>' +
+    '<span class="info-contacto">Horario de atencion: </span> </br> L-V:9:00 a.m. - 6:00 p.m. Sáb: 9:00 a.m. - 1:00 p.m.</div>'
     var largeInfowindow = new google.maps.InfoWindow();
 
     marker.addListener('click', function() {
