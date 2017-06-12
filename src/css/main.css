@@ -57,17 +57,6 @@ main {
 /*Main*/
 
 
-
-/*Main Pic*/
-
-/*.central-pic {
-	width: 100%;
-  min-height: 200px;
-	background: url('../img/central_pic-small.jpg') no-repeat center center;
-  background-attachment: fixed;
-	background-size: 100% 100%;
-}*/
-
 .logo-foto {
   margin-top: 30px;
   margin-left: 5%;
@@ -111,6 +100,36 @@ main {
   text-align: center;
   font-weight: bold;
   font-size: 16px;
+}
+
+/*Servicios*/
+
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service-list {
+    list-style:none;
+
+}
+
+.service-list li:before {
+    content: "";
+    width:4px;
+    height:2px;
+    background: #434747;
+    display: block;
+    float: left;
+    margin-top: 13px;
+    margin-right: 7px;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
 }
 
 
