@@ -109,7 +109,48 @@ iconSizes.forEach(function(size) {
         .pipe(gulp.dest('dist/img/'));
   })
   iconLogo.push(iconLogoSize);
+});
+
+var mainSizes = [["small", 120, 120], ["medium", 150,150], ["large", 175, 175]];
+var mainLogo = [];
+mainSizes.forEach(function(size) {
+  mainLogoSize = 'resize_Main_' + size[0];
+  gulp.task(mainLogoSize, function() {
+    gulp.src('src/img/main*.png')
+        .pipe(imageResize({
+          width: size[1],
+          height: size[2],
+          upscale: false,
+          format: "png"
+        }))
+        .pipe(rename({suffix: "-" + size[0]}))
+        .pipe(gulp.dest('dist/img/'));
+  })
+  mainLogo.push(mainLogoSize);
 })
+
+
+
+ //Changing images for questions logo
+var questionSizes = [["small", 115, 80], ["medium", 172, 120], ["large", 215, 150]];
+var questionLogo = [];
+questionSizes.forEach(function(size) {
+  questionLogoSize = 'resize_Question_' + size[0];
+  gulp.task(questionLogoSize, function() {
+    gulp.src('src/img/question.png')
+        .pipe(imageResize({
+          width: size[1],
+          height: size[2],
+          upscale: false,
+          format: "png"
+        }))
+        .pipe(imagemin())
+        .pipe(rename({suffix: "-" + size[0]}))
+        .pipe(gulp.dest('dist/img/'));
+  })
+  questionLogo.push(questionLogoSize);
+});
+
 
 gulp.task('js-uglify', function (cb) {
   pump([
@@ -132,6 +173,7 @@ gulp.task('resize-notebook', notebook);
 gulp.task('resize-logo', logo);
 gulp.task('resize-foto-logo', fotoLogo);
 gulp.task('resize-icon', iconLogo);
-
+gulp.task('resize-main', mainLogo);
+gulp.task('resize-question', questionLogo);
 
 

@@ -71,6 +71,12 @@ ul li {
 	.main-image {
   		height: 150px;
 }
+
+.question-image {
+  width: 172px;
+  height: 120px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -87,6 +93,12 @@ ul li {
 	.main-image {
   	height: 175px;
 	}
+
+.question-image {
+  width: 215px;
+  height: 150px;
+}
+
 
 }
 
