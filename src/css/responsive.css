@@ -91,13 +91,15 @@ ul li {
 	}
 
 	.main-image {
+	margin-top: 0px;
   	height: 175px;
 	}
 
-.question-image {
-  width: 215px;
-  height: 150px;
-}
+	.question-image {
+	margin-top: 0px;
+	width: 215px;
+	height: 150px;
+	}
 
 
 }
