@@ -96,10 +96,11 @@ main {
 }
 
 .icon-title {
-  padding: 24px;
+  padding: 0px;
   text-align: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
+  color: #2A6E6E;
 }
 
 /*Servicios*/
@@ -107,6 +108,8 @@ main {
 .section-title {
   font-size: 16px;
   font-weight: bold;
+  color: #2A6E6E;
+  padding: 18px;
 }
 
 .service-list {
@@ -126,6 +129,8 @@ main {
 }
 
 .main-image {
+  margin-top: 4px;
+  margin-bottom: 24px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -133,6 +138,8 @@ main {
 }
 
 .question-image {
+  margin-top: 4px;
+  margin-bottom: 24px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -142,7 +149,7 @@ main {
 
 
 #map {
-height: 400px;
+height: 300px;
 width: 100%;
 }
 
