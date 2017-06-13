@@ -191,4 +191,16 @@ width: 100%;
   font-weight: bold;
 }
 
+footer {
+  font-size: 13px;
+  background-color: #35978B;
+  border-top: 6px solid #33D1B4;
+  color: #194742;
+  line-height: 200%;
+}
+
+#copyright {
+  font-size: 11px;
+}
+
 
