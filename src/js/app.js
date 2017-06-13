@@ -91,3 +91,27 @@ $( window ).resize(function(){
 	$('footer').css({'margin-top': spacing});
 });
 
+
+// Animating elements when they appear on screen
+
+
+
+$(window).scroll(function () {
+	 var window_height = $(this).height();
+	 var window_top_position = $(this).scrollTop();
+	 var window_bottom_position = (window_top_position + window_height);
+
+    $('.animation-element').each(function () {
+    	var elementHeight = $(this).outerHeight();
+    	var elementTop = $(this).offset().top + 150;
+    	var elementBottom = elementTop + elementHeight;
+
+        if ((elementBottom >= window_top_position) &&
+        (elementTop <= window_bottom_position)) {
+            $(this).addClass("in-view");
+        }
+    });
+});
+
+
+
