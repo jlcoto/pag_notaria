@@ -110,9 +110,10 @@ $(window).scroll(function () {
         (elementTop <= windowBottom)) {
             $(this).addClass("in-view");
 	         var linkToChange = $(this).parent().prev().attr('id');
-	         if(typeOf linkToChange !== "undefined" ) {
-	         	$(".nav-item").removeClass('link-show');
-	         	$("#" + linkToChange).addClass('link-show')
+	         if(linkToChange) {
+	         	console.log(linkToChange)
+	         	 $(".nav-link").removeClass('link-show');
+	         	 $("#" + linkToChange).addClass('link-show');
 	         }
         }
     });

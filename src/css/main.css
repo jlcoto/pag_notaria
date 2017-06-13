@@ -60,6 +60,16 @@ main {
 
 }
 
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 /*Main*/
@@ -237,5 +247,6 @@ footer {
 }
 
 .link-show {
-  border-bottom: 2px solid #33D1B4;
+  border-bottom: 3px solid #33D1B4;
+  padding: 0 5px;
 }
