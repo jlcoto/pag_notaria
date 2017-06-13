@@ -97,18 +97,23 @@ $( window ).resize(function(){
 
 
 $(window).scroll(function () {
-	 var window_height = $(this).height();
-	 var window_top_position = $(this).scrollTop();
-	 var window_bottom_position = (window_top_position + window_height);
+	 var windowHeight = $(this).height();
+	 var windowTop = $(this).scrollTop();
+	 var windowBottom = (windowTop + windowHeight);
 
     $('.animation-element').each(function () {
     	var elementHeight = $(this).outerHeight();
     	var elementTop = $(this).offset().top + 150;
     	var elementBottom = elementTop + elementHeight;
 
-        if ((elementBottom >= window_top_position) &&
-        (elementTop <= window_bottom_position)) {
+        if ((elementBottom >= windowTop) &&
+        (elementTop <= windowBottom)) {
             $(this).addClass("in-view");
+	         var linkToChange = $(this).parent().prev().attr('id');
+	         if(typeOf linkToChange !== "undefined" ) {
+	         	$(".nav-item").removeClass('link-show');
+	         	$("#" + linkToChange).addClass('link-show')
+	         }
         }
     });
 });

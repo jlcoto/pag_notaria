@@ -32,6 +32,10 @@ main {
   margin-top: 70px;
 }
 
+
+.navbar {
+  height: 70px;
+}
 .nav {
   width: 100%;
 }
@@ -46,14 +50,17 @@ main {
 .nav-item {
   box-sizing: border-box;
   display: inline-block;
-  width: 30%;
+  width: 25%;
   text-align: center;
   line-height: 24px;
-  padding: 24px;
+  padding-left: 18px;
+  padding-top: 24px;
   color: #fff;
   text-align: right;
 
 }
+
+
 
 /*Main*/
 
@@ -71,7 +78,7 @@ main {
 }
 
 
-.nosotros {
+.bienvenida {
   padding-top: 18px;
   padding-bottom: 20px;
 }
@@ -227,4 +234,8 @@ footer {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+}
+
+.link-show {
+  border-bottom: 2px solid #33D1B4;
 }
