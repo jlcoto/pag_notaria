@@ -94,8 +94,6 @@ $( window ).resize(function(){
 
 // Animating elements when they appear on screen
 
-
-
 $(window).scroll(function () {
 	 var windowHeight = $(this).height();
 	 var windowTop = $(this).scrollTop();
@@ -111,13 +109,23 @@ $(window).scroll(function () {
             $(this).addClass("in-view");
 	         var linkToChange = $(this).parent().prev().attr('id');
 	         if(linkToChange) {
-	         	console.log(linkToChange)
 	         	 $(".nav-link").removeClass('link-show');
-	         	 $("#" + linkToChange).addClass('link-show');
+	         	 $('a[href$=' + linkToChange + ']').addClass('link-show');
 	         }
         }
     });
 });
 
 
+// Adding scrolling  effect
+
+$(document).on('click', '.nav-link', function(event){
+
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 300
+    }, 500);
+
+});
 
