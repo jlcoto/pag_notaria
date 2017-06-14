@@ -4,19 +4,19 @@
 
 
 body {
+ color: #434747;
  font: 14px 'Muli', sans-serif;
  line-height: 200%;
- color: #434747;
 }
 
 /*Styling navigator bar*/
 
 .navbar {
-  font-size: 12px;
-	background-color: #35978B;
-	margin-left: -15px;
-	margin-right: -15px;
+  background-color: #35978B;
   border: 0px;
+  font-size: 12px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .logo-esq {
@@ -27,35 +27,31 @@ body {
   width: 136px;
 }
 
-main {
-  margin-top: 70px;
-}
-
-
 .navbar {
   height: 70px;
 }
+
 .nav {
   width: 100%;
 }
 
 .nav-list {
   list-style: none;
-  width: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .nav-item {
   box-sizing: border-box;
+  color: #fff;
   display: inline-block;
-  width: 25%;
-  text-align: center;
   line-height: 24px;
   padding-left: 18px;
   padding-top: 24px;
-  color: #fff;
+  text-align: center;
   text-align: right;
+  width: 25%;
 
 }
 
@@ -65,25 +61,22 @@ main {
 }
 
 .nav-link:hover, .nav-link:visited, .nav-link:active, .nav-link:focus{
-  text-decoration: none !important;
   color: #fff !important;
-}
-
-a:visited {
   text-decoration: none !important;
-  color: #fff !important;
 }
-
 
 
 /*Main*/
 
+/*Giving space for navigation bar*/
+main {
+  margin-top: 70px;
+}
 
 .logo-foto {
   margin-top: 30px;
   margin-left: 5%;
   width: 125px;
-
 }
 
 .principios {
@@ -105,9 +98,9 @@ a:visited {
 
 .text-pr {
   order: 4;
-  width: 33%;
   padding: 12px;
   text-align: center;
+  width: 33%;
 }
 
 
@@ -118,86 +111,86 @@ a:visited {
 }
 
 .icon-title {
+  color: #2A6E6E;
+  font-size: 14px;
+  font-weight: bold;
   padding: 0px;
   text-align: center;
-  font-weight: bold;
-  font-size: 14px;
-  color: #2A6E6E;
 }
 
 /*Servicios*/
 
 .section-title {
+  color: #2A6E6E;
   font-size: 18px;
   font-weight: bold;
-  color: #2A6E6E;
-  padding-top: 18px;
   padding-bottom: 14px;
+  padding-top: 18px;
 }
 
 .service-list {
-    list-style:none;
-
+  list-style:none;
 }
 
 .service-list li:before {
-    content: "";
-    width:4px;
-    height:2px;
-    background: #434747;
-    display: block;
-    float: left;
-    margin-top: 13px;
-    margin-right: 7px;
+  background: #434747;
+  content: "";
+  display: block;
+  float: left;
+  height:2px;
+  margin-right: 7px;
+  margin-top: 13px;
+  width:4px;
 }
 
 .main-image {
-  margin-top: 4px;
-  margin-bottom: 24px;
   display: block;
+  height: 120px;
+  margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
-  height: 120px;
+  margin-top: 4px;
 }
 
 .question-image {
-  margin-top: 4px;
-  margin-bottom: 24px;
   display: block;
+  height: 80px;
+  margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4px;
   width: 115px;
-  height: 80px;
 }
 
 
+/*Contacto*/
+
 #map {
-height: 300px;
-width: 100%;
+  height: 300px;
+  width: 100%;
 }
 
 .iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  position: relative;
+  width: 100%;
 }
 .iframe-container > *{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+  bottom: 0;
+  display: block;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
 }
 
-
 #pano {
-  width: 150px;
   height: 150px;
+  width: 150px;
 }
 
 .info-content {
@@ -212,11 +205,13 @@ width: 100%;
   font-weight: bold;
 }
 
+/*Footer*/
+
 footer {
-  font-size: 13px;
   background-color: #35978B;
   border-top: 6px solid #33D1B4;
   color: #194742;
+  font-size: 13px;
   line-height: 200%;
   padding: 20px 0;
 }
@@ -229,25 +224,25 @@ footer {
 /*Animating Images*/
 
 .animation-element.slide-down {
-  opacity: 0;
-  -moz-transition: all 500ms linear;
-  -webkit-transition: all 500ms linear;
-  -o-transition: all 500ms linear;
-  transition: all 500ms linear;
   -moz-transform: translate3d(0px, -100px, 0px);
-  -webkit-transform: translate3d(0px, -100px, 0px);
-  -o-transform: translate(0px, -100px);
+  -moz-transition: all 500ms linear;
   -ms-transform: translate(0px, -100px);
+  -o-transform: translate(0px, -100px);
+  -o-transition: all 500ms linear;
+  -webkit-transform: translate3d(0px, -100px, 0px);
+  -webkit-transition: all 500ms linear;
+  opacity: 0;
   transform: translate3d(0px, -100px, 0px);
+  transition: all 500ms linear;
 }
 
 
 .animation-element.in-view {
-  opacity: 1;
   -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
 
