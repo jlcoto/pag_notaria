@@ -80,6 +80,7 @@ main {
 }
 
 .principios {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -126,6 +127,10 @@ main {
   font-weight: bold;
   padding-bottom: 14px;
   padding-top: 18px;
+}
+
+.service-title {
+  font-weight: bold;
 }
 
 .service-list {
