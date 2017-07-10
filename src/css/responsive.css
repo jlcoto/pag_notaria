@@ -97,14 +97,25 @@
 }
 
 @media (min-width: 992px) {
+
+
+
 	.main-image {
 		height: 175px;
 		margin-top: 0px;
+	}
+
+	.img-serv {
+		margin-top: 125px;
 	}
 
 	.question-image {
 		height: 150px;
 		margin-top: 0px;
 		width: 215px;
+	}
+
+	.next-list {
+		margin-top: 25px;
 	}
 }
