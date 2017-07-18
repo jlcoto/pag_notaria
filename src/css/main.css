@@ -235,6 +235,16 @@ main {
   font-weight: bold;
 }
 
+/*Requisitos*/
+
+.req li {
+  margin: 8px 0;
+}
+
+.list-req {
+  margin: 90px 0;
+}
+
 /*Footer*/
 
 footer {
