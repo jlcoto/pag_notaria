@@ -104,7 +104,6 @@ main {
   width: 33%;
 }
 
-
 .icon {
   display: block;
   margin-left: auto;
@@ -194,6 +193,7 @@ main {
 
 
 /*Contacto*/
+
 
 #map {
   height: 300px;
@@ -289,4 +289,8 @@ footer {
 .link-show {
   border-bottom: 3px solid #33D1B4;
   padding: 0 5px;
+}
+
+.link-int {
+  border-bottom: 0px;
 }
