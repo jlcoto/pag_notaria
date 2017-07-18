@@ -1,6 +1,10 @@
 
 
 @media screen and (max-width: 549px) {
+
+	body {
+		font-size: 12px;
+	}
 	.central-pic {
 		background position: left top;
 		background-attachment:scroll;
@@ -98,7 +102,9 @@
 
 @media (min-width: 992px) {
 
-
+	.protocolar {
+		margin-top: 40px;
+	}
 
 	.main-image {
 		height: 175px;
@@ -106,7 +112,7 @@
 	}
 
 	.img-serv {
-		margin-top: 125px;
+		margin-top: 130px;
 	}
 
 	.question-image {
@@ -116,6 +122,8 @@
 	}
 
 	.next-list {
-		margin-top: 25px;
+		margin-top: 65px;
 	}
+
+
 }
