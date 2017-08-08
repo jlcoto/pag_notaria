@@ -145,5 +145,11 @@
 		margin-top: 65px;
 	}
 
+	.info-correo {
+  		margin: 30px 0px 80px 100px;
+	}
 
+	.info-tlf {
+  		margin: 30px 0px 80px 100px;
+	}
 }
