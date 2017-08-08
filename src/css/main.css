@@ -130,6 +130,8 @@ main {
 
 .service-title {
   font-weight: bold;
+  margin: 10px 0px;
+
 }
 
 .service-list {
@@ -164,6 +166,10 @@ main {
   margin-right: auto;
   margin-top: 4px;
   width: 115px;
+}
+
+.mipe-text {
+  margin: 5px 0px;
 }
 
 /*Consulta*/

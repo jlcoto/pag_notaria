@@ -117,7 +117,15 @@ $(window).scroll(function () {
 $(document).on('click', '.nav-link', function(event){
 	event.preventDefault();
 	$('html, body').animate({
-		scrollTop: $( $.attr(this, 'href') ).offset().top - 300
+		scrollTop: $( $.attr(this, 'href') ).offset().top - 250
+	}, 500);
+
+});
+
+$(document).on('click', '.consult-link', function(event){
+	event.preventDefault();
+	$('html, body').animate({
+		scrollTop: $( $.attr(this, 'href') ).offset().top - 100
 	}, 500);
 
 });
