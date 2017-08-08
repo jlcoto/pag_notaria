@@ -175,27 +175,19 @@ main {
 /*Consulta*/
 
 .info-correo {
-  margin-top: 10px;
+  margin: 30px 0px 80px 10px;
 }
 
 .info-tlf {
-  margin-top: 10px;
+  margin: 30px 0px 80px 10px;
 }
 
 .consulta-list {
   list-style:none;
+  margin: 15px 0px;
 }
 
-.consulta-list li:before {
-  background: #434747;
-  content: "";
-  display: block;
-  float: left;
-  height:2px;
-  margin-right: 7px;
-  margin-top: 13px;
-  width:4px;
-}
+
 
 
 /*Contacto*/
@@ -249,6 +241,10 @@ main {
 
 .list-req {
   margin: 90px 0;
+}
+
+.contact-font {
+  font-size: 18px;
 }
 
 /*Footer*/
