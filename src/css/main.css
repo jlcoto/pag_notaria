@@ -172,6 +172,29 @@ main {
   margin: 5px 0px;
 }
 
+
+.nuevo {
+  border: 2px solid #36AD98;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #6D6D6D;
+  font-size: 17px;
+}
+
+.nuevo-space {
+  margin: 30px 10px;
+}
+
+.nuevo-emp-title {
+  font-weight: bold;
+  color: #6D6D6D;
+  font-size: 17px;
+}
+
+.emp-link {
+  color: #35978B;
+}
+
 /*Consulta*/
 
 .info-correo {
@@ -186,7 +209,6 @@ main {
   list-style:none;
   margin: 15px 0px;
 }
-
 
 
 
@@ -247,6 +269,21 @@ main {
   font-size: 18px;
 }
 
+/*Pag empresas servicios*/
+
+.emp-serv-description {
+  margin: 40px 30px;
+}
+
+.img-emp {
+  margin-top: 30px;
+}
+
+.equipo-pyme {
+  color: #35978B;
+  font-weight: bold;
+}
+
 /*Footer*/
 
 footer {
@@ -295,4 +332,9 @@ footer {
 
 .link-int {
   border-bottom: 0px;
+}
+
+.plot-next{
+  width:3000px;
+  height:400px;
 }

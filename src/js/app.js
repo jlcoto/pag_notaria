@@ -1,4 +1,6 @@
 
+
+
 //Adding fixed effect to main pic
 $(window).scroll(function() {
 	var scrolledY = $(window).scrollTop();
@@ -74,6 +76,9 @@ function initMap() {
       }
   }
 }
+
+
+
 
 // Footer positioning
 var mapaHeight =$('.mapa-container').height();
