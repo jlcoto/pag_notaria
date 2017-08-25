@@ -113,8 +113,14 @@ $(window).scroll(function () {
 			$('a[href$=' + linkToChange + ']').addClass('link-show');
 		}
 	}
+
 });
 });
+
+
+
+
+
 
 
 // Adding scrolling  effect
