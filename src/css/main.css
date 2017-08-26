@@ -9,6 +9,14 @@ body {
  line-height: 200%;
 }
 
+.space-up {
+  margin-top: 30px;
+}
+
+.space-down {
+  margin-bottom: 40px;
+}
+
 /*Styling navigator bar*/
 
 .navbar {
@@ -282,6 +290,17 @@ main {
 .equipo-pyme {
   color: #35978B;
   font-weight: bold;
+}
+
+/*Pag equipo PyMe*/
+
+.emp-parr{
+  margin: 20px 30px;
+  text-align: left;
+}
+
+.epyme-title {
+  text-align: center;
 }
 
 /*Footer*/
